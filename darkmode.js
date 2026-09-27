@@ -7,3 +7,5 @@ buttons.forEach(button => {
   button.addEventListener("click", () => {
     const theme = button.getAttribute("data-bs-theme-value");
     document.querySelector("html").setAttribute("data-bs-theme", theme);
+  });
+});
